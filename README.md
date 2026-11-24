@@ -15,19 +15,19 @@ Aplicación de gráficos 3D hecha en C++ y OpenGL. Presenta un sistema solar int
 3 Herramientas y bibliotecas
 
 Bibliotecas
- C++17 = Lógica de la aplicación y simulación. 
- OpenGL = Dibuja las figuras 3D y la interfaz gráfica. 
- GLFW = Crea la ventana y recibe teclado y ratón. 
- GLAD = Carga las funciones de OpenGL. 
- Dear ImGui = Botones, listas, casillas y controles deslizantes. 
- Assimp = Importa el modelo 3D `.glb` del astronauta. 
- STB Image = Lee las imágenes y permite cargarlas como texturas. 
- GLSL = Lenguaje de los shaders `default.vert` y `default.frag`, que procesan vértices y colores de los píxeles. 
- Windows =`winmm`  Reproducción de música mediante MCI. 
+ - C++17 = Lógica de la aplicación y simulación. 
+ - OpenGL = Dibuja las figuras 3D y la interfaz gráfica. 
+ - GLFW = Crea la ventana y recibe teclado y ratón. 
+ - GLAD = Carga las funciones de OpenGL. 
+ - Dear ImGui = Botones, listas, casillas y controles deslizantes. 
+ - Assimp = Importa el modelo 3D `.glb` del astronauta. 
+ - STB Image = Lee las imágenes y permite cargarlas como texturas. 
+ - GLSL = Lenguaje de los shaders `default.vert` y `default.frag`, que procesan vértices y colores de los píxeles. 
+ - Windows =`winmm`  Reproducción de música mediante MCI. 
 
 4 Estructura del proyecto
 
-TresTriangulosCamara/
+TresTriangulosCamara
 ├── TresTriangulosCamara.sln       Solución de Visual Studio
 ├── TresTriangulosCamara.vcxproj   Configuración de compilación
 ├── main.cpp                       Escena, controles, simulación e interfaz
@@ -35,10 +35,10 @@ TresTriangulosCamara/
 ├── stb.cpp                        Implementación de STB Image
 ├── default.vert                   Shader de vértices
 ├── default.frag                   Shader de fragmentos
-├── libraries/                     Encabezados y bibliotecas de terceros
-├── Texturas/                      Imágenes para planetas y fondo
-├── Modelo/                        Modelo y texturas del astronauta
-├── minisoundtrack/                Música MP3
+├── libraries                      Encabezados y bibliotecas de terceros
+├── Texturas                       Imágenes para planetas y fondo
+├── Modelo                         Modelo y texturas del astronauta
+├── minisoundtrack                 Música MP3
 
 5 Controles de cámara
 

@@ -1,0 +1,9 @@
+libdir=C:/Users/kgarc/OneDrive/Escritorio/TresTriangulosCamara/libraries/assimp/lib
+includedir=C:/Users/kgarc/OneDrive/Escritorio/TresTriangulosCamara/libraries/assimp/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 6.0.6
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

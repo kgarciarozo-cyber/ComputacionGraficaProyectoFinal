@@ -1,0 +1,15 @@
+.vs/
+[Bb]in/
+[Oo]bj/
+/x64/
+/Win32/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog/
+*.lastbuildstate
+/TresTria.*/
+imgui.ini

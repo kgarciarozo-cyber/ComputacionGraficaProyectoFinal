@@ -107,7 +107,3 @@ Las rutas y los nombres escritos en el código deben coincidir con los archivos.
 El modelo que carga el código es `Modelo/Astronaut.glb`. `AstronautAnimado.glb` está guardado en la carpeta, pero aún no se usa para reproducir animaciones de articulaciones. El movimiento actual del astronauta se produce recorriendo la curva y girando para seguir la dereccion de las curvas de bezier
 
 La música predeterminada es `minisoundtrack/holaespacio.mp3`. Las demás canciones están en esa misma carpeta y se seleccionan desde ImGui. La reproducción depende de funciones de Windows, así que el proyecto está pensado para Windows.
-
-
-
-Este repositorio puede incluir código, dependencias, modelos, imágenes y música. Antes de redistribuir esos recursos públicamente, comprueba sus licencias y permisos de uso. Los archivos generados por Visual Studio se excluyen mediante `.gitignore`.

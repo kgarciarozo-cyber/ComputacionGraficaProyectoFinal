@@ -28,17 +28,17 @@ Bibliotecas
 4 Estructura del proyecto
 
 TresTriangulosCamara
-├── TresTriangulosCamara.sln       Solución de Visual Studio
-├── TresTriangulosCamara.vcxproj   Configuración de compilación
-├── main.cpp                       Escena, controles, simulación e interfaz
-├── glad.c                         Cargador de OpenGL
-├── stb.cpp                        Implementación de STB Image
-├── default.vert                   Shader de vértices
-├── default.frag                   Shader de fragmentos
-├── libraries                      Encabezados y bibliotecas de terceros
-├── Texturas                       Imágenes para planetas y fondo
-├── Modelo                         Modelo y texturas del astronauta
-├── minisoundtrack                 Música MP3
+-TresTriangulosCamara.sln       Solución de Visual Studio
+-TresTriangulosCamara.vcxproj   Configuración de compilación
+- main.cpp                       Escena, controles, simulación e interfaz
+- glad.c                         Cargador de OpenGL
+- stb.cpp                        Implementación de STB Image
+- default.vert                   Shader de vértices
+- default.frag                   Shader de fragmentos
+- libraries                      Encabezados y bibliotecas de terceros
+- Texturas                       Imágenes para planetas y fondo
+- Modelo                         Modelo y texturas del astronauta
+- minisoundtrack                 Música MP3
 
 5 Controles de cámara
 

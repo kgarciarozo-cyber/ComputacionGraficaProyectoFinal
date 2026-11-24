@@ -15,7 +15,6 @@ Aplicación de gráficos 3D hecha en C++ y OpenGL. Presenta un sistema solar int
 3 Herramientas y bibliotecas
 
 Bibliotecas
- - C++17 = Lógica de la aplicación y simulación. 
  - OpenGL = Dibuja las figuras 3D y la interfaz gráfica. 
  - GLFW = Crea la ventana y recibe teclado y ratón. 
  - GLAD = Carga las funciones de OpenGL. 

@@ -1,4 +1,4 @@
-1 Tres Triángulos Cámara
+1 Proyecto final
 
 Aplicación de gráficos 3D hecha en C++ y OpenGL. Presenta un sistema solar interactivo con planetas texturizados, controles con Dear ImGui, música propia, un astronauta y recorridos con curvas de Bézier.
 
